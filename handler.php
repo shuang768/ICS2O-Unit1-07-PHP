@@ -27,19 +27,9 @@
       </header>
   
       <main class="mdl-layout__content" style="margin-left:75px;">
-        <!-- Simple Textfield -->
-        <form method="post" name="whoareyou" action="handler.php">
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="myName">
-            <label class="mdl-textfield__label" for="myName">What is your name?</label>
-          </div>
-          <!-- Raised button with ripple -->
-          <div>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-              Submit
-            </button>
-          </div>
-        </form>
+        <?php
+          echo "<h3>Hello, World!<h3>"; 
+        ?>
       </main>
 
     </div>
