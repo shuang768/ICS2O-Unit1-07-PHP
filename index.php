@@ -33,7 +33,7 @@
             <input class="mdl-textfield__input" type="text" id="myName" name="myname">
             <label class="mdl-textfield__label" for="myName">What is your name?</label>
           </div>
-          <!-- Raised button with ripple -->
+          
           <div>
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
               Submit
