@@ -28,7 +28,7 @@
   
       <main class="mdl-layout__content" style="margin-left:75px;">
         <?php
-          echo "<h3>Hello, World!<h3>"; 
+          echo "<h3>Hello,".$_POST['myname']."<h3>"; 
         ?>
       </main>
 

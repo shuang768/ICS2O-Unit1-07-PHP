@@ -30,7 +30,7 @@
         <!-- Simple Textfield -->
         <form method="post" name="whoareyou" action="handler.php">
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="myName">
+            <input class="mdl-textfield__input" type="text" id="myName" name="myname">
             <label class="mdl-textfield__label" for="myName">What is your name?</label>
           </div>
           <!-- Raised button with ripple -->
